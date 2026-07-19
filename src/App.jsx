@@ -179,6 +179,17 @@ function speakWord(word) {
   window.speechSynthesis.speak(utterance);
 }
 
+async function fetchRelatedWords(word) {
+  try {
+    const res = await fetch(`https://api.datamuse.com/words?rel_trg=${encodeURIComponent(word)}&max=6`);
+    if (!res.ok) return [];
+    const data = await res.json();
+    return data.map((d) => d.word).filter(Boolean).slice(0, 6);
+  } catch (err) {
+    return [];
+  }
+}
+
 async function fetchLiveEntry(word, setLiveEntry, setLoading, setFetchError) {
   const key = word.trim().toLowerCase();
   if (!key) return;
@@ -186,7 +197,10 @@ async function fetchLiveEntry(word, setLiveEntry, setLoading, setFetchError) {
   setFetchError("");
   setLiveEntry(null);
   try {
-    const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(key)}`);
+    const [res, related] = await Promise.all([
+      fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(key)}`),
+      fetchRelatedWords(key),
+    ]);
     if (!res.ok) throw new Error("not found");
     const data = await res.json();
     const first = data[0];
@@ -212,7 +226,7 @@ async function fetchLiveEntry(word, setLiveEntry, setLoading, setFetchError) {
       definitions: definitions.length ? definitions : ["No definition found for this word."],
       example: exampleDef ? exampleDef.example : "No example sentence available for this word yet.",
       etymology: [],
-      related: [],
+      related: related.filter((w) => w.toLowerCase() !== key),
       synonyms: Array.from(synonymsSet).slice(0, 6),
       live: true,
     });
@@ -306,7 +320,7 @@ export default function App() {
           ) : notFound ? (
             <div className="empty">
               <p className="emptyTitle">No entry found</p>
-              <p className="emptyBody">"{fetchError}" isn't in the dictionary. Try another word, or browse the collection below.</p>
+              <p className="emptyBody">"{fetchError}" isn't in the dictionary. Try another word.</p>
             </div>
           ) : (
             <article className="entry" key={entry.word}>
@@ -415,17 +429,6 @@ export default function App() {
             </article>
           )}
         </section>
-
-        <aside className="side">
-          <p className="indexTitle">browse</p>
-          <ul className="index">
-            {WORD_LIST.map((w) => (
-              <li key={w}>
-                <button className={!liveEntry && w === active ? "isActive" : ""} onClick={() => go(w)}>{w}</button>
-              </li>
-            ))}
-          </ul>
-        </aside>
       </main>
 
       <style>{`
@@ -525,13 +528,9 @@ export default function App() {
         .dayStripDef{ font-family:'Cormorant Garamond', serif; font-size:15px; color:#8A8274; }
 
         .sectionDivider{ max-width:720px; margin:40px auto; height:1px; background:#EAE3D6; }
-        @media (min-width: 780px){ .sectionDivider{ max-width:880px; } }
         .layout{
-          max-width:720px; margin:0 auto; display:grid; grid-template-columns:1fr; gap:44px;
+          max-width:720px; margin:0 auto; display:block;
           flex:1 0 auto; padding-bottom:64px;
-        }
-        @media (min-width: 780px){
-          .layout{ max-width:880px; grid-template-columns:1fr 180px; align-items:start; }
         }
 
         .entry{ }
@@ -556,7 +555,7 @@ export default function App() {
         .playBtn:hover{ background:#96A2B4; border-color:#96A2B4; color:#FFFFFF; }
         .playBtn svg{ margin-left:1px; }
 
-        .defs{ margin:0 0 26px; padding-left:20px; font-family:'Cormorant Garamond', serif; font-size:19px; line-height:1.7; color:#3A362F; }
+        .defs{ margin:0 0 48px; padding-left:0; list-style-position:inside; font-family:'Cormorant Garamond', serif; font-size:19px; line-height:1.7; color:#3A362F; }
         .defs li{ margin-bottom:10px; }
         .defs li::marker{ color:#96A2B4; }
         .apiNote{
@@ -570,9 +569,9 @@ export default function App() {
           font-family:'Cormorant Garamond', serif; font-style:italic; font-size:15px; color:#A79E8F;
         }
 
-        .synonyms{ margin:0 0 28px; }
+        .synonyms{ margin:0 0 48px; }
         .synonymsHead{
-          display:flex; align-items:baseline; justify-content:space-between; gap:12px;
+          display:flex; align-items:baseline; justify-content:flex-start; gap:10px;
           flex-wrap:wrap; margin-bottom:10px;
         }
         .synonymsLabel{
@@ -605,10 +604,10 @@ export default function App() {
         }
         .exampleMark{ color:#96A2B4; font-size:26px; vertical-align:-2px; }
 
-        .divider{ height:1px; background:#EAE3D6; margin:40px 0; }
+        .divider{ height:1px; background:#EAE3D6; margin:48px 0; }
 
         .etymologyHead{
-          display:flex; align-items:baseline; justify-content:space-between; gap:12px;
+          display:flex; align-items:baseline; justify-content:flex-start; gap:10px;
           flex-wrap:wrap;
         }
         .etymologyHeading{
@@ -630,19 +629,6 @@ export default function App() {
         .empty{ padding:48px 0; }
         .emptyTitle{ font-family:'Louize', 'Bodoni Moda', serif; font-style:italic; font-size:26px; margin:0 0 8px; }
         .emptyBody{ font-family:'Cormorant Garamond', serif; font-size:17px; color:#8A8274; margin:0; }
-
-        .side{ }
-        .indexTitle{
-          font-family:'Inter', sans-serif; font-weight:600; font-size:11px; letter-spacing:0.1em;
-          text-transform:uppercase; color:#8A8274; margin:0 0 40px;
-        }
-        .index{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:3px; }
-        .index button{
-          width:100%; text-align:left; background:none; border:none; cursor:pointer;
-          font-family:'Louize', 'Bodoni Moda', serif; font-size:17px; padding:5px 0; color:#5C554A;
-        }
-        .index button:hover{ color:#96A2B4; }
-        .index button.isActive{ color:#96A2B4; font-style:italic; font-weight:600; }
       `}</style>
       <div className="stripeBar bottom" aria-hidden="true" />
     </div>
