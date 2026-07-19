@@ -108,15 +108,1076 @@ const WORDS = {
     related: ["ephemera", "fleeting", "transient"],
     synonyms: ["fleeting", "transient", "momentary", "short-lived"],
   },
+  whimsy: {
+    word: "whimsy",
+    ipa: "/ˈwɪm.zi/",
+    pos: "noun",
+    definitions: [
+      "A playful, fanciful notion or idea, often lighthearted and a little odd.",
+      "The quality of being whimsical — quaint, unpredictable charm.",
+    ],
+    example: "The treehouse was built with such whimsy that it had a working periscope and a slide instead of stairs.",
+    etymology: [
+      { tag: "1520s", label: "whim-wham", detail: "The trail starts with 'whim-wham,' an odd little English word for a trinket or fanciful notion. Its own origin is unclear — possibly Scandinavian, possibly just an invented, playful sound." },
+      { tag: "c. 1600", label: "Shortened to 'whimsy'", detail: "English speakers clip 'whim-wham' down to 'whimsy,' keeping the same sense of a fanciful, capricious idea." },
+      { tag: "today", label: "Everyday charm", detail: "Now used broadly for anything playfully quaint or delightfully impractical — a fitting word whose own history is a little whimsical." },
+    ],
+    related: ["whimsical", "whim", "fanciful"],
+    synonyms: ["fancy", "caprice", "playfulness", "quirk"],
+  },
+  lilt: {
+    word: "lilt",
+    ipa: "/lɪlt/",
+    pos: "noun",
+    definitions: [
+      "A pleasant, rhythmic rise and fall in the sound of someone's voice or a piece of music.",
+      "To speak or sing with such a swinging, musical rhythm.",
+    ],
+    example: "Her Irish lilt made even the grocery list sound like a song.",
+    etymology: [
+      { tag: "1300s", label: "Middle English 'lulten'", detail: "Appears in Middle English meaning 'to sound an alarm' or 'to lift up the voice' — its ultimate root is unclear, possibly imitative of sound itself." },
+      { tag: "1500s–1600s", label: "Settles into music", detail: "The word narrows to describe a lively, swinging rhythm in singing or playing an instrument." },
+      { tag: "today", label: "The voice sense", detail: "Now most familiar as the musical rise and fall in someone's accent or speech." },
+    ],
+    related: ["lilting", "cadence"],
+    synonyms: ["cadence", "swing", "rhythm", "sway"],
+  },
+  solace: {
+    word: "solace",
+    ipa: "/ˈsɒl.əs/",
+    pos: "noun",
+    definitions: [
+      "Comfort in a time of grief, distress, or disappointment.",
+      "To give comfort to someone, or to find comfort in something.",
+    ],
+    example: "She found solace in the quiet routine of watering her plants every morning.",
+    etymology: [
+      { tag: "Latin", label: "solari", detail: "From the Latin verb solari, 'to comfort or console,' which also gives us 'consolation.'" },
+      { tag: "Old French", label: "solas", detail: "Passes through Old French as 'solas,' meaning comfort or pleasure, before crossing into English." },
+      { tag: "1300s", label: "Enters English", detail: "Adopted into Middle English keeping its core sense: relief and comfort offered in hard times." },
+    ],
+    related: ["console", "consolation", "solacing"],
+    synonyms: ["comfort", "consolation", "relief", "ease"],
+  },
+  tendril: {
+    word: "tendril",
+    ipa: "/ˈten.drɪl/",
+    pos: "noun",
+    definitions: [
+      "A slender, thread-like part of a climbing plant that coils around something for support.",
+      "Anything resembling this — a thin, curling wisp, like a strand of hair or smoke.",
+    ],
+    example: "A tendril of ivy had found its way through the crack in the fence.",
+    etymology: [
+      { tag: "Latin", label: "tener", detail: "Traces back to Latin tener, 'tender, delicate, soft' — the same root that gives English 'tender.'" },
+      { tag: "Old French", label: "tendron", detail: "Passes through Old French tendron, meaning a young, tender shoot or cartilage." },
+      { tag: "1500s", label: "Enters English as 'tendril'", detail: "Settles into English specifically for the curling, grasping threads of climbing plants like peas and grapevines." },
+    ],
+    related: ["tendrilled", "vine"],
+    synonyms: ["vine", "curl", "wisp", "shoot"],
+  },
+  halcyon: {
+    word: "halcyon",
+    ipa: "/ˈhæl.si.ən/",
+    pos: "adjective",
+    definitions: [
+      "Calm, peaceful, and happy — often describing a fondly remembered period of time.",
+    ],
+    example: "He often spoke of the halcyon summers he spent at his grandparents' lake house.",
+    etymology: [
+      { tag: "Greek myth", label: "Alcyone", detail: "Named for Alcyone, a figure in Greek mythology turned into a kingfisher after grieving her husband's death at sea." },
+      { tag: "Ancient belief", label: "Calm winter seas", detail: "The Greeks believed the halcyon bird calmed the wind and waves for fourteen days around the winter solstice so it could nest on the water — the original 'halcyon days.'" },
+      { tag: "1540s", label: "Enters English", detail: "English borrows 'halcyon days' directly from this myth, and the word gradually comes to mean any calm, happy, idyllic time." },
+    ],
+    related: ["halcyon days", "kingfisher"],
+    synonyms: ["peaceful", "idyllic", "serene", "golden"],
+  },
+  wonder: {
+    word: "wonder",
+    ipa: "/ˈwʌn.dər/",
+    pos: "noun",
+    definitions: [
+      "A feeling of amazement and admiration, caused by something beautiful, unexpected, or unfamiliar.",
+      "To be curious about something, or to feel that sense of awe.",
+    ],
+    example: "The children stared up at the aurora in silent wonder.",
+    etymology: [
+      { tag: "Old English", label: "wundor", detail: "Rooted in Old English wundor, meaning a marvel, miracle, or astonishing thing — already carrying its sense of awe over a thousand years ago." },
+      { tag: "Germanic", label: "Shared root", detail: "Related to Old Saxon wundar and Old High German wuntar, suggesting a common Germanic root whose deeper origin is now lost to time." },
+      { tag: "today", label: "Still standing", detail: "One of the rare words that has kept almost the same spelling and meaning across a thousand years of English." },
+    ],
+    related: ["wonderful", "wondrous", "awe"],
+    synonyms: ["awe", "amazement", "marvel", "astonishment"],
+  },
+  dulcet: {
+    word: "dulcet",
+    ipa: "/ˈdʌl.sɪt/",
+    pos: "adjective",
+    definitions: [
+      "Sweet and soothing to hear, especially describing a sound or voice.",
+    ],
+    example: "The dulcet tones of the cello drifted through the open window.",
+    etymology: [
+      { tag: "Latin", label: "dulcis", detail: "From Latin dulcis, 'sweet' — the same root behind 'dulcify' and even, distantly, 'candy.'" },
+      { tag: "Old French", label: "doucet", detail: "Passes through Old French doucet, a soft, affectionate form of 'sweet,' before entering English." },
+      { tag: "1400s", label: "Enters English", detail: "Settles into English as 'dulcet,' applied mostly to pleasing sounds rather than literal sweetness." },
+    ],
+    related: ["dulcetly", "dulcify"],
+    synonyms: ["melodious", "sweet", "soothing", "mellifluous"],
+  },
+  evermore: {
+    word: "evermore",
+    ipa: "/ˌev.əˈmɔːr/",
+    pos: "adverb",
+    definitions: [
+      "Forever; for all future time.",
+    ],
+    example: "She promised to remember that summer evermore.",
+    etymology: [
+      { tag: "Old English", label: "æfre + māra", detail: "A native English compound, joining æfre ('ever') and māra ('more') — no borrowed roots here, just two old English words fused together." },
+      { tag: "1200s", label: "Fuses into one word", detail: "'Ever' and 'more' begin appearing together so often in Middle English that they merge into the single word 'evermore.'" },
+      { tag: "today", label: "A poetic standby", detail: "Largely replaced by 'forever' in everyday speech, but it lingers in poetry and song for its older, more solemn ring." },
+    ],
+    related: ["forever", "evermore and anon"],
+    synonyms: ["forever", "always", "eternally", "perpetually"],
+  },
+  mercurial: {
+    word: "mercurial",
+    ipa: "/mɜːrˈkjʊər.i.əl/",
+    pos: "adjective",
+    definitions: [
+      "Subject to sudden or unpredictable changes of mood.",
+      "Lively, quick-witted, and full of energy.",
+    ],
+    example: "His mercurial temper meant the meeting could go either wonderfully or terribly, with no warning.",
+    etymology: [
+      { tag: "Roman myth", label: "Mercury", detail: "Named for Mercury, the swift Roman messenger god of trade, travel, and trickery, known for his speed and cunning." },
+      { tag: "Astrology", label: "The planet's temperament", detail: "In old astrology, people born under the influence of the planet Mercury were thought to be quick, clever, and changeable in mood." },
+      { tag: "1400s", label: "Enters English", detail: "'Mercurial' enters English carrying that same sense of swift, shifting temperament — lively one moment, gone the next." },
+    ],
+    related: ["mercury", "quicksilver"],
+    synonyms: ["volatile", "changeable", "capricious", "temperamental"],
+  },
+  catharsis: {
+    word: "catharsis",
+    ipa: "/kəˈθɑːr.sɪs/",
+    pos: "noun",
+    definitions: [
+      "The release of strong or repressed emotions, often leaving a feeling of relief.",
+    ],
+    example: "Writing the letter she never sent gave her an unexpected sense of catharsis.",
+    etymology: [
+      { tag: "Greek", label: "katharsis", detail: "From Greek katharsis, 'purification' or 'cleansing,' from kathairein, 'to purify.'" },
+      { tag: "Ancient Greece", label: "Aristotle's tragedy", detail: "Aristotle used the word to describe how watching a tragic play could purge an audience's pity and fear, leaving them emotionally cleansed." },
+      { tag: "1800s", label: "Enters medicine, then everyday use", detail: "Physicians borrow the term for emotional or psychological release, and it eventually spreads into everyday language for any deeply relieving release of feeling." },
+    ],
+    related: ["cathartic", "purge"],
+    synonyms: ["release", "relief", "purging", "outlet"],
+  },
+  esoteric: {
+    word: "esoteric",
+    ipa: "/ˌes.əˈter.ɪk/",
+    pos: "adjective",
+    definitions: [
+      "Intended for or understood by only a small, specialized group; obscure or specialist in nature.",
+    ],
+    example: "The lecture on medieval tax law was a little too esoteric for most of the students.",
+    etymology: [
+      { tag: "Greek", label: "esōterikos", detail: "From Greek esōterikos, 'belonging to an inner circle,' built from esō, 'within.'" },
+      { tag: "Ancient philosophy", label: "Inner teachings", detail: "Originally described teachings that certain Greek philosophers, like followers of Pythagoras, shared only with initiated inner students, as opposed to the public." },
+      { tag: "1600s", label: "Enters English", detail: "English adopts 'esoteric' for anything understood only by a select, knowledgeable few." },
+    ],
+    related: ["esoterica", "exoteric"],
+    synonyms: ["obscure", "arcane", "abstruse", "specialized"],
+  },
+  bioluminescence: {
+    word: "bioluminescence",
+    ipa: "/ˌbaɪ.oʊˌluː.mɪˈnes.əns/",
+    pos: "noun",
+    definitions: [
+      "Light produced by a living organism through a chemical reaction inside its body.",
+    ],
+    example: "The kayakers gasped as their paddles stirred up trails of blue bioluminescence in the dark water.",
+    etymology: [
+      { tag: "Greek", label: "bios", detail: "From Greek bios, 'life' — the same root behind 'biology' and 'biography.'" },
+      { tag: "Latin", label: "lumen", detail: "Joined with Latin lumen, 'light,' the root of 'luminous' and 'illuminate.'" },
+      { tag: "1900s", label: "A modern compound", detail: "Scientists fuse the two roots in the early 20th century to name this specific kind of living, chemical light — found in fireflies, jellyfish, and glowing plankton." },
+    ],
+    related: ["luminescence", "phosphorescent"],
+    synonyms: ["glow", "luminescence", "phosphorescence"],
+  },
+  ethereal: {
+    word: "ethereal",
+    ipa: "/ɪˈθɪər.i.əl/",
+    pos: "adjective",
+    definitions: [
+      "Extremely delicate and light in a way that seems too perfect for this world.",
+      "Relating to the heavens or the upper regions of the sky, in older usage.",
+    ],
+    example: "The dancer's movements had an ethereal quality, as if she barely touched the floor.",
+    etymology: [
+      { tag: "Greek", label: "aithēr", detail: "From Greek aithēr, the bright, upper air the gods were thought to breathe — distinct from the lower air humans breathed." },
+      { tag: "Latin", label: "aetherius", detail: "Passes into Latin as aetherius, keeping its sense of the pure, celestial upper atmosphere." },
+      { tag: "1600s", label: "Meaning softens", detail: "English 'ethereal' keeps the sense of heavenly lightness, but shifts toward describing anything delicate, airy, and almost otherworldly." },
+    ],
+    related: ["ether", "unearthly"],
+    synonyms: ["delicate", "airy", "otherworldly", "gossamer"],
+  },
+  symphony: {
+    word: "symphony",
+    ipa: "/ˈsɪm.fə.ni/",
+    pos: "noun",
+    definitions: [
+      "A long musical composition for a full orchestra, typically in several movements.",
+      "Any harmonious combination of sounds, colors, or elements.",
+    ],
+    example: "The market at dawn was a symphony of shouting vendors, clattering carts, and crowing roosters.",
+    etymology: [
+      { tag: "Greek", label: "syn- + phōnē", detail: "From syn-, 'together,' and phōnē, 'sound' or 'voice' — literally, 'a sounding together.'" },
+      { tag: "Latin", label: "symphonia", detail: "Passes through Latin symphonia, meaning harmony or a concert of sound." },
+      { tag: "1700s", label: "The musical form", detail: "Comes to name the specific large-scale orchestral composition still performed today, while the everyday sense — any pleasing blend of sounds — lives on alongside it." },
+    ],
+    related: ["symphonic", "orchestra"],
+    synonyms: ["harmony", "concord", "orchestration"],
+  },
+  incandescent: {
+    word: "incandescent",
+    ipa: "/ˌɪn.kænˈdes.ənt/",
+    pos: "adjective",
+    definitions: [
+      "Emitting light as a result of being heated; glowing.",
+      "Brilliant, passionate, or intensely emotional.",
+    ],
+    example: "She gave an incandescent performance that left the entire theater silent.",
+    etymology: [
+      { tag: "Latin", label: "incandescere", detail: "From Latin incandescere, 'to become hot or glow,' built from in- ('to begin') and candere, 'to shine or glow white.'" },
+      { tag: "1700s", label: "Enters English", detail: "Adopted into English for anything glowing with heat — later applied to the glowing filament of the incandescent light bulb." },
+      { tag: "today", label: "Figurative glow", detail: "Now used just as often for a person's brilliance or passion as for literal glowing heat." },
+    ],
+    related: ["incandescence", "candescent"],
+    synonyms: ["glowing", "radiant", "luminous", "brilliant"],
+  },
+  clandestine: {
+    word: "clandestine",
+    ipa: "/klænˈdes.tɪn/",
+    pos: "adjective",
+    definitions: [
+      "Kept secret or done in secrecy, often because it is illicit or unauthorized.",
+    ],
+    example: "They arranged a clandestine meeting in the back room of the old bookshop.",
+    etymology: [
+      { tag: "Latin", label: "clam", detail: "Rooted in Latin clam, 'secretly, in private.'" },
+      { tag: "Latin", label: "clandestinus", detail: "Latin builds this into clandestinus, 'hidden, concealed' — used for anything done outside public knowledge." },
+      { tag: "1500s", label: "Enters English", detail: "English borrows 'clandestine' largely unchanged, keeping its sense of secrecy, often with a hint of impropriety." },
+    ],
+    related: ["clandestinely"],
+    synonyms: ["secret", "covert", "surreptitious", "furtive"],
+  },
+  crestfallen: {
+    word: "crestfallen",
+    ipa: "/ˈkrest.fɔː.lən/",
+    pos: "adjective",
+    definitions: [
+      "Sad and disappointed, especially after a failure or a letdown.",
+    ],
+    example: "The team walked off the field crestfallen after missing the final goal.",
+    etymology: [
+      { tag: "1500s", label: "From the cockpit", detail: "Coined from 'crest' (the fleshy comb on a rooster's head) and 'fallen' — describing a defeated gamecock whose crest visibly drooped after losing a fight." },
+      { tag: "1600s", label: "Meaning broadens", detail: "English writers begin applying the image to people, using 'crestfallen' for anyone visibly deflated by disappointment or defeat." },
+      { tag: "today", label: "The literal sense fades", detail: "Most speakers today have no idea the word started with a rooster's comb — it now reads simply as 'visibly dejected.'" },
+    ],
+    related: ["dejected", "crest"],
+    synonyms: ["dejected", "downcast", "disheartened", "deflated"],
+  },
+  silhouette: {
+    word: "silhouette",
+    ipa: "/ˌsɪl.uˈet/",
+    pos: "noun",
+    definitions: [
+      "The dark outline of a person or object seen against a brighter background.",
+      "A portrait showing only the solid black outline of a profile.",
+    ],
+    example: "At sunset, the trees along the ridge became nothing but silhouettes against the orange sky.",
+    etymology: [
+      { tag: "1759", label: "Étienne de Silhouette", detail: "Named after a real man: Étienne de Silhouette, France's finance minister, who imposed harsh austerity measures during the Seven Years' War." },
+      { tag: "1759", label: "A mocking nickname", detail: "The nobility, furious at his penny-pinching, began using 'à la Silhouette' to mock anything cheap or skimpy — including simple, inexpensive black-outline portraits, popular as a budget alternative to painted ones." },
+      { tag: "1843", label: "The word settles in", detail: "'Silhouette' sheds its mocking tone and becomes the standard English word for any dark outline or shadow profile." },
+    ],
+    related: ["silhouetted", "profile"],
+    synonyms: ["outline", "profile", "shadow", "shape"],
+  },
+  epiphany: {
+    word: "epiphany",
+    ipa: "/ɪˈpɪf.ə.ni/",
+    pos: "noun",
+    definitions: [
+      "A sudden, striking realization or moment of clear understanding.",
+      "(capitalized) A Christian festival celebrating the manifestation of Christ to the Magi.",
+    ],
+    example: "Halfway through the hike, she had an epiphany about what she actually wanted to do with her life.",
+    etymology: [
+      { tag: "Greek", label: "epiphaneia", detail: "From Greek epiphaneia, 'manifestation, striking appearance,' built from epi- ('upon') and phainein ('to show, to appear')." },
+      { tag: "Religious use", label: "A holy feast day", detail: "Adopted into Church Latin and English for the Christian feast celebrating Christ's manifestation to the Magi — a moment of sudden, revealed truth." },
+      { tag: "1800s", label: "Meaning broadens", detail: "Writers, notably James Joyce, popularize a secular sense: any sudden flash of insight or understanding, religious or not." },
+    ],
+    related: ["epiphanic"],
+    synonyms: ["revelation", "realization", "insight", "awakening"],
+  },
+  ribaldry: {
+    word: "ribaldry",
+    ipa: "/ˈrɪb.əl.dri/",
+    pos: "noun",
+    definitions: [
+      "Coarse, crude, humorous talk or behavior, especially about sex.",
+    ],
+    example: "The tavern was loud with laughter and ribaldry long after midnight.",
+    etymology: [
+      { tag: "Old French", label: "ribaud", detail: "From Old French ribaud, 'rogue, scoundrel, dissolute person' — a word for the kind of person who hung around taverns causing trouble." },
+      { tag: "uncertain root", label: "Possibly from 'riber'", detail: "Some sources trace 'ribaud' further back to an Old French verb riber, 'to be wanton or promiscuous,' though the deepest root is debated." },
+      { tag: "1300s", label: "Enters English", detail: "English borrows the word and, with the suffix '-ry,' turns it into 'ribaldry' — the coarse, bawdy talk associated with such rogues." },
+    ],
+    related: ["ribald"],
+    synonyms: ["bawdiness", "crudeness", "vulgarity", "coarseness"],
+  },
+  chicanery: {
+    word: "chicanery",
+    ipa: "/ʃɪˈkeɪ.nər.i/",
+    pos: "noun",
+    definitions: [
+      "The use of trickery or deception, especially clever, evasive argument, to achieve a goal.",
+    ],
+    example: "The merger fell apart once investigators uncovered years of financial chicanery.",
+    etymology: [
+      { tag: "1400s", label: "French 'chicaner'", detail: "Rooted in the Middle French verb chicaner, 'to quibble, to raise pointless legal objections' — its own origin is genuinely uncertain." },
+      { tag: "Disputed roots", label: "A game, or a Germanic word?", detail: "Some etymologists trace it to a mallet game once played in southern France; others link it to a Middle Low German word meaning 'to arrange.' No one is fully sure." },
+      { tag: "1589", label: "Enters English", detail: "'Chicanery' arrives in English already meaning legal quibbling and trickery, and keeps that sense of deceptive cleverness today." },
+    ],
+    related: ["chicane", "chicaner"],
+    synonyms: ["trickery", "deception", "subterfuge", "sophistry"],
+  },
+  malevolent: {
+    word: "malevolent",
+    ipa: "/məˈlev.ə.lənt/",
+    pos: "adjective",
+    definitions: [
+      "Having or showing a wish to do harm to others; ill-willed.",
+    ],
+    example: "There was something malevolent in the way he smiled before delivering the bad news.",
+    etymology: [
+      { tag: "Latin", label: "male + volens", detail: "From Latin male, 'badly, ill,' and volens, 'wishing' — the present participle of velle, 'to wish.'" },
+      { tag: "Latin", label: "malevolens", detail: "Combined into malevolens, 'ill-disposed, spiteful' — literally, 'wishing badly' toward someone." },
+      { tag: "1400s", label: "Enters English", detail: "Borrowed into English keeping its exact sense: a deliberate wish to cause harm, the opposite of 'benevolent.'" },
+    ],
+    related: ["malevolence", "benevolent"],
+    synonyms: ["malicious", "spiteful", "hostile", "vindictive"],
+  },
+  wistful: {
+    word: "wistful",
+    ipa: "/ˈwɪst.fəl/",
+    pos: "adjective",
+    definitions: [
+      "Having or showing a feeling of vague or regretful longing.",
+    ],
+    example: "He gave a wistful smile at the mention of his old university days.",
+    etymology: [
+      { tag: "c. 1500", label: "wistly", detail: "Traces to the obsolete English word 'wistly,' meaning 'intently' — itself likely from 'whistly,' an old term for 'silently.'" },
+      { tag: "1610s", label: "'wistful' appears", detail: "English forms 'wistful' from 'wistly' plus the suffix '-ful,' first meaning 'closely attentive' or 'intent.'" },
+      { tag: "1714", label: "Meaning shifts to longing", detail: "The sense drifts toward wistful's modern meaning — a gaze that lingers with quiet, yearning sadness — likely nudged along by its resemblance to 'wishful.'" },
+    ],
+    related: ["wistfully", "wistfulness"],
+    synonyms: ["longing", "yearning", "pensive", "nostalgic"],
+  },
+  serpentine: {
+    word: "serpentine",
+    ipa: "/ˈsɜːr.pən.taɪn/",
+    pos: "adjective",
+    definitions: [
+      "Winding and twisting like a snake.",
+      "Cunning or deceptive, in an old figurative sense.",
+    ],
+    example: "The serpentine road climbed the mountainside in a dozen sharp switchbacks.",
+    etymology: [
+      { tag: "Latin", label: "serpens", detail: "From Latin serpens, 'snake,' itself from serpere, 'to creep or crawl.'" },
+      { tag: "Latin", label: "serpentinus", detail: "Latin builds the adjective serpentinus, 'snake-like,' used for anything winding or coiled." },
+      { tag: "1300s", label: "Enters English", detail: "English keeps both senses inherited from the snake: a twisting shape, and — in older, more biblical usage — a sly, cunning nature." },
+    ],
+    related: ["serpent", "sinuous"],
+    synonyms: ["winding", "sinuous", "twisting", "snaking"],
+  },
+  riboflavin: {
+    word: "riboflavin",
+    ipa: "/ˌraɪ.boʊˈfleɪ.vɪn/",
+    pos: "noun",
+    definitions: [
+      "Vitamin B2, a yellow compound found in foods like eggs, milk, and leafy greens, essential for converting food into energy.",
+    ],
+    example: "The nutrition label listed riboflavin among the vitamins added to the cereal.",
+    etymology: [
+      { tag: "Chemistry", label: "ribose", detail: "The first half comes from 'ribose,' a sugar found in the vitamin's molecular structure." },
+      { tag: "Latin", label: "flavus", detail: "The second half comes from Latin flavus, 'yellow' — the same root as 'flavescent' — describing the compound's bright yellow color." },
+      { tag: "1930s", label: "A coined chemical name", detail: "Chemists fuse the two roots once the vitamin's structure was understood, replacing its earlier, less precise name 'vitamin B2' in scientific use." },
+    ],
+    related: ["vitamin B2", "flavin"],
+    synonyms: ["vitamin B2"],
+  },
+  susurration: {
+    word: "susurration",
+    ipa: "/ˌsuː.səˈreɪ.ʃən/",
+    pos: "noun",
+    definitions: [
+      "A soft, whispering or rustling sound; a murmur.",
+    ],
+    example: "A susurration passed through the crowd as the announcement began.",
+    etymology: [
+      { tag: "Latin", label: "susurrare", detail: "From Latin susurrare, 'to murmur, hum, or whisper' — a word built to imitate its own sound." },
+      { tag: "Latin", label: "susurrus", detail: "Gives the Latin noun susurrus, 'a whispering or humming noise.'" },
+      { tag: "1400s", label: "Enters English", detail: "English borrows the word largely intact for that same soft, whispering murmur — of voices, leaves, or wind." },
+    ],
+    related: ["susurrus", "susurrous"],
+    synonyms: ["murmur", "whisper", "rustle", "hum"],
+  },
+  feldspar: {
+    word: "feldspar",
+    ipa: "/ˈfeld.spɑːr/",
+    pos: "noun",
+    definitions: [
+      "A common, hard, light-colored mineral found in most types of rock, and a major component of the Earth's crust.",
+    ],
+    example: "The granite countertop sparkled faintly with flecks of pink feldspar.",
+    etymology: [
+      { tag: "German", label: "Feld + Spat", detail: "From German Feld, 'field,' and Spat, an old mining term for a non-metallic crystalline mineral that splits along flat surfaces." },
+      { tag: "1700s", label: "Enters English", detail: "German mineralogists' term is borrowed into English mining and geology largely unchanged, describing the mineral often found scattered in open fields." },
+    ],
+    related: ["spar", "mineral"],
+    synonyms: ["mineral", "spar"],
+  },
+  kerfuffle: {
+    word: "kerfuffle",
+    ipa: "/kərˈfʌf.əl/",
+    pos: "noun",
+    definitions: [
+      "A commotion or fuss, especially one caused by conflicting views.",
+    ],
+    example: "There was a minor kerfuffle in the office over who had taken the last of the coffee.",
+    etymology: [
+      { tag: "1580s", label: "Scottish 'fuffle'", detail: "Rooted in the old Scottish verb fuffle, 'to throw into disorder or dishevel.'" },
+      { tag: "1813", label: "'curfuffle' in Scots", detail: "Scottish writers add the prefix car- or cur- (possibly from Scottish Gaelic car, 'a twist or turn') to form 'curfuffle,' meaning agitation or disorder." },
+      { tag: "1940s", label: "Becomes 'kerfuffle'", detail: "The spelling shifts to 'kerfuffle,' likely influenced by playful ker- words like 'kerplunk,' and spreads into general British and Canadian English for any minor fuss." },
+    ],
+    related: ["curfuffle", "commotion"],
+    synonyms: ["commotion", "fuss", "uproar", "to-do"],
+  },
+  cataclysmic: {
+    word: "cataclysmic",
+    ipa: "/ˌkæt.əˈklɪz.mɪk/",
+    pos: "adjective",
+    definitions: [
+      "Involving or causing sudden, violent, large-scale change or destruction.",
+    ],
+    example: "The company's decision to skip the safety review had cataclysmic consequences.",
+    etymology: [
+      { tag: "Greek", label: "kataklyzein", detail: "From Greek kataklyzein, 'to flood over, deluge,' built from kata- ('down') and klyzein ('to wash')." },
+      { tag: "Greek", label: "kataklysmos", detail: "Gives the noun kataklysmos, 'a flood or deluge' — used in Greek translations of the biblical flood story." },
+      { tag: "1600s–1800s", label: "Meaning broadens", detail: "English 'cataclysm' keeps the sense of an overwhelming flood at first, then widens to any sudden, catastrophic upheaval, geological or otherwise." },
+    ],
+    related: ["cataclysm"],
+    synonyms: ["catastrophic", "disastrous", "calamitous", "devastating"],
+  },
+  ebullient: {
+    word: "ebullient",
+    ipa: "/ɪˈbʌl.jənt/",
+    pos: "adjective",
+    definitions: [
+      "Overflowing with enthusiasm, excitement, or high spirits.",
+    ],
+    example: "She gave an ebullient toast that had the whole room laughing within seconds.",
+    etymology: [
+      { tag: "Latin", label: "ebullire", detail: "From Latin ebullire, 'to boil up, bubble out,' built from e- ('out') and bullire ('to boil')." },
+      { tag: "1500s", label: "A literal boiling", detail: "English first uses 'ebullient' quite literally, for liquid that is boiling or bubbling over." },
+      { tag: "1600s", label: "Meaning turns figurative", detail: "Writers begin applying the same 'boiling over' image to people — someone so full of enthusiasm it seems to bubble out of them." },
+    ],
+    related: ["ebullience", "effervescent"],
+    synonyms: ["exuberant", "enthusiastic", "buoyant", "effervescent"],
+  },
+  reticent: {
+    word: "reticent",
+    ipa: "/ˈret.ɪ.sənt/",
+    pos: "adjective",
+    definitions: [
+      "Not revealing one's thoughts or feelings readily; reserved or reluctant to speak.",
+    ],
+    example: "He was strangely reticent about how the interview had actually gone.",
+    etymology: [
+      { tag: "Latin", label: "reticere", detail: "From Latin reticere, 'to keep silent,' built from re- (intensive) and tacere, 'to be silent' — the same root behind 'tacit.'" },
+      { tag: "1830s", label: "Enters English", detail: "'Reticent' enters English relatively late, describing someone who deliberately holds back speech or feeling rather than sharing it freely." },
+    ],
+    related: ["reticence", "tacit"],
+    synonyms: ["reserved", "reluctant", "guarded", "taciturn"],
+  },
+  crystalline: {
+    word: "crystalline",
+    ipa: "/ˈkrɪs.tə.laɪn/",
+    pos: "adjective",
+    definitions: [
+      "Having the clear structure or transparent, glassy quality of crystal.",
+      "Perfectly clear; easy to understand.",
+    ],
+    example: "The lake was so crystalline you could count the pebbles on the bottom.",
+    etymology: [
+      { tag: "Greek", label: "krystallos", detail: "From Greek krystallos, meaning both 'ice' and 'rock crystal,' from kryos, 'icy cold' — the ancient Greeks believed clear quartz was simply ice frozen so hard it could never melt." },
+      { tag: "Latin", label: "crystallinus", detail: "Passes through Latin crystallinus, keeping that sense of ice-like clarity and structure." },
+      { tag: "1300s", label: "Enters English", detail: "English adopts 'crystalline' for anything with that same transparent, ordered clarity — later extended figuratively to clear thinking or clear water." },
+    ],
+    related: ["crystal", "crystallize"],
+    synonyms: ["clear", "transparent", "glassy", "lucid"],
+  },
+  dew: {
+    word: "dew",
+    ipa: "/djuː/",
+    pos: "noun",
+    definitions: [
+      "Tiny drops of water that form on cool surfaces overnight as water vapor in the air condenses.",
+    ],
+    example: "The grass was heavy with dew by the time the sun came up.",
+    etymology: [
+      { tag: "Old English", label: "dēaw", detail: "Rooted in Old English dēaw, already meaning exactly what it does today." },
+      { tag: "Germanic", label: "Shared root", detail: "Related to Old Norse dögg, Old High German tou, and Dutch dauw — all Germanic languages share this ancient word for morning moisture." },
+      { tag: "today", label: "Unusually stable", detail: "One of the oldest, plainest words in English — a single syllable that has barely changed in over a thousand years." },
+    ],
+    related: ["dewdrop", "dewy"],
+    synonyms: ["moisture", "condensation", "droplets"],
+  },
+  quintessential: {
+    word: "quintessential",
+    ipa: "/ˌkwɪn.tɪˈsen.ʃəl/",
+    pos: "adjective",
+    definitions: [
+      "Representing the most perfect or typical example of a quality or class.",
+    ],
+    example: "With its rolling hills and stone cottages, the village felt like the quintessential English countryside.",
+    etymology: [
+      { tag: "Medieval philosophy", label: "quinta essentia", detail: "From Medieval Latin quinta essentia, 'fifth essence' — a mysterious substance ancient and medieval philosophers believed made up the heavens, beyond the four earthly elements of earth, water, air, and fire." },
+      { tag: "1500s", label: "Enters English as 'quintessence'", detail: "English borrows the noun 'quintessence' for this rarest, purest essence — the most concentrated, perfect form of a thing." },
+      { tag: "1600s", label: "Becomes an adjective", detail: "'Quintessential' develops from it, describing anything that represents the purest, most typical example of its kind." },
+    ],
+    related: ["quintessence"],
+    synonyms: ["archetypal", "classic", "definitive", "ideal"],
+  },
+  glisten: {
+    word: "glisten",
+    ipa: "/ˈglɪs.ən/",
+    pos: "verb",
+    definitions: [
+      "To shine with a sparkling or glittering light, especially when wet.",
+    ],
+    example: "The cobblestones glistened after the rain.",
+    etymology: [
+      { tag: "Old English", label: "glisnian", detail: "From Old English glisnian, 'to glitter or shine' — part of a large family of Germanic 'gl-' words for light and shine." },
+      { tag: "Germanic cluster", label: "glitter, glisk, glister", detail: "English has a whole cluster of closely related words for shininess — glitter, glisten, glister, glimmer, glint — all likely growing from the same ancient Germanic root imitating the sensation of flickering light." },
+      { tag: "today", label: "The wet-shine word", detail: "Of that whole cluster, 'glisten' has settled into a specific niche: the particular sparkle of something wet or dewy." },
+    ],
+    related: ["glistening", "glimmer"],
+    synonyms: ["sparkle", "shimmer", "gleam", "glitter"],
+  },
+  shimmer: {
+    word: "shimmer",
+    ipa: "/ˈʃɪm.ər/",
+    pos: "verb",
+    definitions: [
+      "To shine with a soft, flickering, wavering light.",
+    ],
+    example: "Heat made the desert road shimmer in the distance.",
+    etymology: [
+      { tag: "Old English", label: "scimerian", detail: "From Old English scimerian, a frequentative form built on scima, 'brightness, radiance' — the '-er' ending suggests a repeated, flickering action." },
+      { tag: "Germanic", label: "Related to 'shine'", detail: "Shares its deeper root with 'shine' itself, from Proto-Germanic *skimô, 'light, brightness.'" },
+      { tag: "today", label: "A gentler shine", detail: "Where 'shine' suggests a steady glow, 'shimmer' keeps that old flickering, wavering quality — light that seems to shift and dance." },
+    ],
+    related: ["shimmering", "shine"],
+    synonyms: ["glimmer", "sparkle", "glisten", "twinkle"],
+  },
+  semblance: {
+    word: "semblance",
+    ipa: "/ˈsem.bləns/",
+    pos: "noun",
+    definitions: [
+      "The outward appearance of something, especially when the reality may be different.",
+    ],
+    example: "After the storm passed, the town slowly returned to some semblance of normal life.",
+    etymology: [
+      { tag: "Latin", label: "similare", detail: "Traces back to Latin similare, 'to make similar to, to imitate,' from similis, 'like, resembling.'" },
+      { tag: "Old French", label: "sembler", detail: "Passes through Old French sembler, 'to seem, to appear,' which also gives English 'resemble' and 'assemble.'" },
+      { tag: "1300s", label: "Enters English", detail: "Adopted as 'semblance' — the seeming or apparent form of something, often used when that appearance may not match the underlying truth." },
+    ],
+    related: ["resemble", "resemblance"],
+    synonyms: ["appearance", "likeness", "guise", "facade"],
+  },
+  murmur: {
+    word: "murmur",
+    ipa: "/ˈmɜːr.mər/",
+    pos: "noun",
+    definitions: [
+      "A low, continuous, indistinct sound, like quiet talking or flowing water.",
+      "To say something in a soft, barely audible voice.",
+    ],
+    example: "A murmur ran through the audience as the lights dimmed.",
+    etymology: [
+      { tag: "Latin", label: "murmur", detail: "Rooted directly in the Latin word murmur, meaning the same low, indistinct sound — likely formed to imitate the sound itself." },
+      { tag: "Ancient pattern", label: "An old reduplication", detail: "Linguists believe murmur is an ancient 'reduplicated' word, built by doubling a basic sound-root — much like 'mama' or 'papa' — to represent something soft and repetitive." },
+      { tag: "1300s", label: "Enters English", detail: "English inherits the word largely unchanged, keeping both its sound and sense: something quiet, low, and continuous." },
+    ],
+    related: ["murmuring", "murmurous"],
+    synonyms: ["mutter", "whisper", "hum", "rustle"],
+  },
+  cerulean: {
+    word: "cerulean",
+    ipa: "/səˈruː.li.ən/",
+    pos: "adjective",
+    definitions: [
+      "Deep, clear blue, like a cloudless sky.",
+    ],
+    example: "The postcard showed a cerulean sea meeting an equally cerulean sky.",
+    etymology: [
+      { tag: "Latin", label: "caelum", detail: "Most likely descends from Latin caelum, 'sky, heaven' — a word whose own origin is lost to time." },
+      { tag: "Latin", label: "caeruleus", detail: "Caelum shrinks down into caeruleus, 'dark blue, blue-green,' which Roman writers used for the sky, the sea, and sometimes fields of grass." },
+      { tag: "1660s", label: "Enters English", detail: "English borrows 'cerulean' directly for that same deep, sky-like blue, giving artists and poets a more specific word than plain 'blue.'" },
+    ],
+    related: ["azure", "sky-blue"],
+    synonyms: ["azure", "sky-blue", "sapphire"],
+  },
+  mnemonic: {
+    word: "mnemonic",
+    ipa: "/nɪˈmɒn.ɪk/",
+    pos: "adjective",
+    definitions: [
+      "Relating to or designed to assist memory.",
+      "(as a noun) A device, like a rhyme or acronym, used to help remember something.",
+    ],
+    example: "She used the mnemonic 'Roy G. Biv' to remember the colors of the rainbow.",
+    etymology: [
+      { tag: "Greek myth", label: "Mnemosyne", detail: "Ultimately tied to Mnemosyne, the Greek goddess of memory and mother of the nine Muses." },
+      { tag: "Greek", label: "mnēmonikos", detail: "From Greek mnēmonikos, 'of or pertaining to memory,' built on mnēmē, 'memory' or 'remembrance.'" },
+      { tag: "1700s", label: "Enters English", detail: "English borrows the word for techniques and devices specifically designed to aid memory — fittingly, a word about memory that traces straight back to the goddess of memory herself." },
+    ],
+    related: ["mnemonics", "memory"],
+    synonyms: ["memory aid", "reminder"],
+  },
+  lullaby: {
+    word: "lullaby",
+    ipa: "/ˈlʌl.ə.baɪ/",
+    pos: "noun",
+    definitions: [
+      "A soft, soothing song sung to help a child fall asleep.",
+    ],
+    example: "She hummed the same lullaby her own mother used to sing to her.",
+    etymology: [
+      { tag: "Imitative", label: "lu, lu", detail: "Built from the soft, soothing sound 'lu-lu' or 'lull,' the same instinctive murmur parents make to calm a baby — the root of the verb 'to lull.'" },
+      { tag: "1560s", label: "Joined with 'bye'", detail: "'Lull' is joined with 'bye' or 'by,' another soothing syllable, to form 'lullaby' — essentially, a sung version of hushing sounds." },
+      { tag: "today", label: "Universal by design", detail: "Because it's built from soothing sounds rather than borrowed foreign roots, 'lullaby' has close cousins in many languages, each built the same instinctive way." },
+    ],
+    related: ["lull", "berceuse"],
+    synonyms: ["cradle song", "berceuse"],
+  },
+  reverie: {
+    word: "reverie",
+    ipa: "/ˈrev.ər.i/",
+    pos: "noun",
+    definitions: [
+      "A state of being pleasantly lost in one's own thoughts; a daydream.",
+    ],
+    example: "The lecture droned on, and she drifted into a reverie about her upcoming trip.",
+    etymology: [
+      { tag: "Old French", label: "resverie", detail: "From Old French resverie, meaning 'delirium' or 'wild talk' — a much more feverish word than its calm modern meaning." },
+      { tag: "Old French", label: "resver", detail: "Built on the verb resver, 'to wander in mind, to rave' — its own deeper root is uncertain, possibly linked to a word for wandering." },
+      { tag: "1650s", label: "Meaning softens", detail: "As it settles into English, 'reverie' loses its feverish edge and comes to mean a gentle, pleasant drifting of the mind — daydreaming rather than delirium." },
+    ],
+    related: ["daydream", "musing"],
+    synonyms: ["daydream", "musing", "trance", "woolgathering"],
+  },
+  crescendo: {
+    word: "crescendo",
+    ipa: "/krɪˈʃen.doʊ/",
+    pos: "noun",
+    definitions: [
+      "A gradual increase in loudness or intensity, especially in music.",
+      "The peak or climax of a gradually building process.",
+    ],
+    example: "The drums built to a crescendo just as the fireworks began.",
+    etymology: [
+      { tag: "Latin", label: "crescere", detail: "From Latin crescere, 'to grow, to increase' — the same root behind 'crescent,' 'increase,' and 'crescive.'" },
+      { tag: "Italian", label: "crescendo", detail: "Italian composers adopt crescendo, literally 'increasing,' as a musical direction telling performers to gradually play louder." },
+      { tag: "1700s", label: "Enters English", detail: "English borrows the term directly from musical notation, later broadening it to any gradual build toward a peak — musical or otherwise." },
+    ],
+    related: ["decrescendo", "diminuendo"],
+    synonyms: ["climax", "buildup", "peak", "swell"],
+  },
+  epoch: {
+    word: "epoch",
+    ipa: "/ˈiː.pɒk/",
+    pos: "noun",
+    definitions: [
+      "A particular period of time in history or a person's life, often marked by notable events or characteristics.",
+      "(in geology) A subdivision of a period, marking a distinct span of Earth's history.",
+    ],
+    example: "The invention of the printing press marked the start of a new epoch in human communication.",
+    etymology: [
+      { tag: "Greek", label: "epokhē", detail: "From Greek epokhē, 'a stopping point, a pause' — built from epekhein, 'to hold back, to check.'" },
+      { tag: "Astronomy", label: "A fixed starting point", detail: "Originally used by astronomers for a fixed point in time from which other dates are measured — a moment where the clock, in a sense, is checked and reset." },
+      { tag: "1600s", label: "Meaning broadens", detail: "English widens 'epoch' from that precise astronomical starting point to any distinct, significant period of time." },
+    ],
+    related: ["epochal"],
+    synonyms: ["era", "age", "period"],
+  },
+  limerence: {
+    word: "limerence",
+    ipa: "/ˈlɪm.ər.əns/",
+    pos: "noun",
+    definitions: [
+      "An intense, often involuntary state of romantic infatuation, marked by intrusive thoughts and a longing for one's feelings to be returned.",
+    ],
+    example: "He recognized the signs of limerence — he couldn't stop thinking about her, even during meetings.",
+    etymology: [
+      { tag: "1977", label: "Coined by Dorothy Tennov", detail: "Invented from scratch by American psychologist Dorothy Tennov to name a specific romantic experience she'd studied for a decade but found had no existing word." },
+      { tag: "No roots at all", label: "Deliberately invented", detail: "Tennov said the word has 'no etymology whatsoever' — she chose it simply because it sounded pleasant and worked well across languages, after first trying and discarding 'amorance.'" },
+      { tag: "today", label: "A rare honest neologism", detail: "Unlike most words on this page, limerence has no ancient story to trace — just a psychologist in the 1970s who needed a name for something real and made one up." },
+    ],
+    related: ["limerent"],
+    synonyms: ["infatuation", "obsession", "besottedness"],
+  },
+  bungalow: {
+    word: "bungalow",
+    ipa: "/ˈbʌŋ.ɡə.loʊ/",
+    pos: "noun",
+    definitions: [
+      "A single-story house, often with a wide porch and low, sloping roofline.",
+    ],
+    example: "They spent their honeymoon in a small beachside bungalow.",
+    etymology: [
+      { tag: "Bengal", label: "bangla", detail: "From the Hindi and Gujarati word bangla, meaning 'of or belonging to Bengal' — describing the traditional thatched houses of the Bengal region." },
+      { tag: "1670s", label: "Colonial India", detail: "British colonists in India adopt the word for these simple, single-story houses with wide verandas, built to suit the hot, humid climate." },
+      { tag: "1800s–1900s", label: "Spreads worldwide", detail: "The style and word travel back to Britain, then to America, Australia, and beyond, becoming a global term for any single-story home." },
+    ],
+    related: ["dak bungalow"],
+    synonyms: ["cottage", "single-story house"],
+  },
+  chatoyant: {
+    word: "chatoyant",
+    ipa: "/ʃəˈtɔɪ.ənt/",
+    pos: "adjective",
+    definitions: [
+      "Having a shifting, shimmering luster that seems to change as the angle of light changes, like a cat's eye.",
+    ],
+    example: "The tiger's-eye gemstone had a chatoyant band of light that seemed to glide across its surface.",
+    etymology: [
+      { tag: "French", label: "chat", detail: "Built on the French word chat, 'cat.'" },
+      { tag: "French", label: "chatoyer", detail: "Forms the verb chatoyer, 'to shimmer or shift color like a cat's eyes in the dark.'" },
+      { tag: "1816", label: "Enters English", detail: "English borrows the present participle 'chatoyant' directly, mostly for describing gemstones and polished wood that catch and shift the light the way a cat's eyes do." },
+    ],
+    related: ["chatoyancy", "cat's-eye"],
+    synonyms: ["shimmering", "iridescent", "lustrous"],
+  },
+  dalliance: {
+    word: "dalliance",
+    ipa: "/ˈdæl.i.əns/",
+    pos: "noun",
+    definitions: [
+      "A brief romantic or playful flirtation, not meant to be serious or lasting.",
+      "The act of wasting time idly or playfully.",
+    ],
+    example: "Their summer dalliance was fun while it lasted, but neither expected it to continue past September.",
+    etymology: [
+      { tag: "Middle English", label: "dallien", detail: "From Middle English dallien, 'to talk idly, to chat playfully or flirtatiously' — its own deeper root is uncertain, possibly related to an Old French word for amusement." },
+      { tag: "1300s", label: "'Dally' takes shape", detail: "Gives English the verb 'to dally' — to play around, flirt, or waste time without serious intent." },
+      { tag: "1500s", label: "'Dalliance' follows", detail: "The noun form 'dalliance' settles in for the act itself: playful, unserious flirtation or time-wasting." },
+    ],
+    related: ["dally", "flirtation"],
+    synonyms: ["flirtation", "fling", "tryst"],
+  },
+  effervescent: {
+    word: "effervescent",
+    ipa: "/ˌef.ərˈves.ənt/",
+    pos: "adjective",
+    definitions: [
+      "Giving off small bubbles of gas; fizzy.",
+      "Vivacious and enthusiastic in a lively, bubbling way.",
+    ],
+    example: "Her effervescent personality made even the dullest meetings feel lively.",
+    etymology: [
+      { tag: "Latin", label: "ex- + fervere", detail: "From Latin ex- ('out') and fervere, 'to boil, to seethe' — the same root behind 'fervent' and 'fervor.'" },
+      { tag: "1700s", label: "A literal fizz", detail: "English first uses 'effervescent' for liquids that bubble and foam, like a boiling pot or a fizzy drink." },
+      { tag: "1800s", label: "Meaning turns figurative", detail: "Writers extend the bubbling image to people — someone whose enthusiasm seems to fizz and bubble out of them." },
+    ],
+    related: ["effervesce", "effervescence"],
+    synonyms: ["bubbly", "fizzy", "vivacious", "ebullient"],
+  },
+  efflorescence: {
+    word: "efflorescence",
+    ipa: "/ˌef.lɔːˈres.əns/",
+    pos: "noun",
+    definitions: [
+      "The process or period of flowering or blossoming.",
+      "A gradual unfolding or flourishing, often figuratively — as of talent or culture.",
+    ],
+    example: "The city enjoyed a remarkable efflorescence of art and architecture in the years after the war.",
+    etymology: [
+      { tag: "Latin", label: "ex- + florescere", detail: "From Latin ex- ('out') and florescere, 'to begin to blossom,' itself from flos, 'flower.'" },
+      { tag: "1600s", label: "A botanical term", detail: "English first uses 'efflorescence' literally, for the process of a plant bursting into bloom." },
+      { tag: "1700s", label: "Meaning blossoms figuratively", detail: "Writers borrow the same image for any gradual flourishing — a golden age, a burst of creativity, a culture in full bloom." },
+    ],
+    related: ["florescence", "flourish"],
+    synonyms: ["flowering", "blossoming", "flourishing"],
+  },
+  elision: {
+    word: "elision",
+    ipa: "/ɪˈlɪʒ.ən/",
+    pos: "noun",
+    definitions: [
+      "The omission of a sound or syllable when speaking, such as saying 'I'm' instead of 'I am.'",
+      "The act of leaving something out, generally.",
+    ],
+    example: "The poem relies on elision throughout, contracting 'over' to ''o'er'' to keep the meter tight.",
+    etymology: [
+      { tag: "Latin", label: "elidere", detail: "From Latin elidere, 'to strike out, to crush out,' built from e- ('out') and laedere, 'to hurt or strike.'" },
+      { tag: "1600s", label: "Enters English", detail: "Borrowed for the grammatical sense: the deliberate 'striking out' of a sound to smooth speech or verse." },
+      { tag: "today", label: "Beyond grammar", detail: "Now also used more broadly for any omission — cutting a scene from a film, or skipping a detail in a story." },
+    ],
+    related: ["elide", "contraction"],
+    synonyms: ["omission", "contraction", "ellipsis"],
+  },
+  eloquence: {
+    word: "eloquence",
+    ipa: "/ˈel.ə.kwəns/",
+    pos: "noun",
+    definitions: [
+      "Fluent, persuasive, and articulate speech or writing.",
+    ],
+    example: "The eulogy was delivered with such eloquence that even strangers in the back row were in tears.",
+    etymology: [
+      { tag: "Latin", label: "eloqui", detail: "From Latin eloqui, 'to speak out,' built from e- ('out') and loqui, 'to speak' — the same root behind 'loquacious' and 'colloquial.'" },
+      { tag: "Latin", label: "eloquentia", detail: "Gives the noun eloquentia, 'the skill of speaking well,' prized highly by Roman orators and teachers of rhetoric." },
+      { tag: "1300s", label: "Enters English", detail: "Adopted through Old French, keeping its sense of speech so fluent and persuasive it moves an audience." },
+    ],
+    related: ["eloquent", "rhetoric"],
+    synonyms: ["fluency", "articulateness", "expressiveness"],
+  },
+  embrocation: {
+    word: "embrocation",
+    ipa: "/ˌem.brəˈkeɪ.ʃən/",
+    pos: "noun",
+    definitions: [
+      "A liquid medicine or lotion rubbed onto the skin, especially to relieve muscle pain.",
+    ],
+    example: "The trainer rubbed embrocation into the runner's calves before the race.",
+    etymology: [
+      { tag: "Greek", label: "embrokhē", detail: "From Greek embrokhē, 'a lotion' or 'a soaking,' from embrekhein, 'to soak or moisten.'" },
+      { tag: "Late Latin", label: "embrocare", detail: "Passes through Late Latin embrocare, 'to foment, to apply a lotion to.'" },
+      { tag: "1400s", label: "Enters English", detail: "Adopted into English medical writing for any liquid rubbed on the body to relieve pain or stiffness — a use that has barely changed since." },
+    ],
+    related: ["liniment", "lotion"],
+    synonyms: ["liniment", "lotion", "salve"],
+  },
+  emollient: {
+    word: "emollient",
+    ipa: "/ɪˈmɒl.i.ənt/",
+    pos: "adjective",
+    definitions: [
+      "Having the power to soften or soothe the skin.",
+      "(figuratively) Softening or calming in effect, as in easing tension.",
+    ],
+    example: "She applied an emollient cream to her wind-chapped hands every night.",
+    etymology: [
+      { tag: "Latin", label: "emollire", detail: "From Latin emollire, 'to soften,' built from e- (intensive) and mollis, 'soft' — the same root behind 'mollify' and 'mollusk.'" },
+      { tag: "1600s", label: "Enters English", detail: "First used medically, for substances that soften and soothe the skin." },
+      { tag: "today", label: "A gentle figurative sense", detail: "Also used more broadly for anything that softens tension — an emollient tone, an emollient gesture." },
+    ],
+    related: ["mollify", "moisturizer"],
+    synonyms: ["softening", "soothing", "moisturizing"],
+  },
+  erstwhile: {
+    word: "erstwhile",
+    ipa: "/ˈɜːrst.waɪl/",
+    pos: "adjective",
+    definitions: [
+      "Former; previous — describing what someone or something used to be.",
+    ],
+    example: "The erstwhile champion now coaches the very team that once beat him.",
+    etymology: [
+      { tag: "Old English", label: "ærest", detail: "Built on Old English ærest, 'earliest, first' — itself the superlative form of ær, 'before, early.'" },
+      { tag: "Middle English", label: "erst + while", detail: "Joined with 'while' to form 'erstwhile,' literally 'at the earliest time' or 'formerly.'" },
+      { tag: "today", label: "A literary survivor", detail: "Largely replaced in speech by 'former,' but 'erstwhile' persists in writing for its slightly old-fashioned, literary flavor." },
+    ],
+    related: ["former", "quondam"],
+    synonyms: ["former", "previous", "one-time", "past"],
+  },
+  evanescent: {
+    word: "evanescent",
+    ipa: "/ˌev.əˈnes.ənt/",
+    pos: "adjective",
+    definitions: [
+      "Quickly fading from sight or memory; soon passing out of existence.",
+    ],
+    example: "The northern lights are evanescent — you have to look up at exactly the right moment.",
+    etymology: [
+      { tag: "Latin", label: "vanus", detail: "Rooted in Latin vanus, 'empty, vain' — the same root behind 'vanish' and 'vanity.'" },
+      { tag: "Latin", label: "evanescere", detail: "Builds into evanescere, 'to vanish, to disappear gradually,' from e- ('out') plus vanescere ('to become empty')." },
+      { tag: "1700s", label: "Enters English", detail: "Adopted for anything that fades or disappears almost as soon as it's noticed — a scent, a feeling, a flash of light." },
+    ],
+    related: ["evanesce", "vanish"],
+    synonyms: ["fleeting", "ephemeral", "transient", "fading"],
+  },
+  felicity: {
+    word: "felicity",
+    ipa: "/fəˈlɪs.ɪ.ti/",
+    pos: "noun",
+    definitions: [
+      "Intense happiness; great joy.",
+      "A pleasing and appropriate manner or style, especially in speech or writing.",
+    ],
+    example: "She described her wedding day, still years later, as a moment of pure felicity.",
+    etymology: [
+      { tag: "Latin", label: "felix", detail: "From Latin felix, 'happy, lucky, fruitful' — the same root behind the name Felix." },
+      { tag: "Latin", label: "felicitas", detail: "Gives the noun felicitas, 'good fortune, happiness,' often invoked as a blessing in Roman inscriptions." },
+      { tag: "1300s", label: "Enters English", detail: "Borrowed through Old French, keeping its sense of deep, fortunate happiness — and later gaining a second sense for elegant, well-chosen words." },
+    ],
+    related: ["felicitous", "felicitate"],
+    synonyms: ["joy", "happiness", "bliss", "contentment"],
+  },
+  fugacious: {
+    word: "fugacious",
+    ipa: "/fjuːˈɡeɪ.ʃəs/",
+    pos: "adjective",
+    definitions: [
+      "Lasting only a short time; fleeting, especially in a way that is hard to hold onto.",
+    ],
+    example: "Fame proved fugacious — within a year, no one recognized him on the street anymore.",
+    etymology: [
+      { tag: "Latin", label: "fugere", detail: "From Latin fugere, 'to flee' — the same root behind 'fugitive' and 'refuge.'" },
+      { tag: "Latin", label: "fugax", detail: "Builds into the adjective fugax, 'apt to flee, fleeting,' used by Roman poets for anything that slips away quickly." },
+      { tag: "1600s", label: "Enters English", detail: "Adopted, though rarely used in everyday speech — a rarer, more bookish cousin of 'fleeting' or 'ephemeral.'" },
+    ],
+    related: ["fugitive", "fugacity"],
+    synonyms: ["fleeting", "transient", "ephemeral", "short-lived"],
+  },
+  gambol: {
+    word: "gambol",
+    ipa: "/ˈɡæm.bəl/",
+    pos: "verb",
+    definitions: [
+      "To run or jump about playfully; to frolic.",
+    ],
+    example: "The puppies gamboled across the lawn, tripping over their own feet.",
+    etymology: [
+      { tag: "Greek", label: "kampē", detail: "Traces distantly to Greek kampē, 'a bending' — the root idea of a joint or limb that bends." },
+      { tag: "Late Latin", label: "gamba", detail: "Passes through Late Latin gamba, 'a horse's hock or leg' — also the ancestor of French 'jambe' and English 'jamb.'" },
+      { tag: "1500s", label: "'Gambol' takes shape", detail: "Via Old Italian gambata and French gambade ('a horse's playful leap'), English forms 'gambol' — literally, kicking up one's legs in play." },
+    ],
+    related: ["gamble", "gambit"],
+    synonyms: ["frolic", "frisk", "romp", "caper"],
+  },
+  imbrication: {
+    word: "imbrication",
+    ipa: "/ˌɪm.brɪˈkeɪ.ʃən/",
+    pos: "noun",
+    definitions: [
+      "An overlapping pattern, like roof tiles or fish scales, where each piece partly covers the next.",
+    ],
+    example: "The artist painted the dragon's scales with careful imbrication, each one overlapping the last.",
+    etymology: [
+      { tag: "Latin", label: "imbrex", detail: "From Latin imbrex, 'a curved roof tile,' itself from imber, 'rain' — a tile specifically shaped to channel rainwater off a roof." },
+      { tag: "Latin", label: "imbricare", detail: "Builds into imbricare, 'to cover with overlapping tiles.'" },
+      { tag: "1600s", label: "Enters English", detail: "Adopted for that same overlapping, tile-like pattern — now used well beyond roofing, in botany, zoology, and art." },
+    ],
+    related: ["imbricate", "overlap"],
+    synonyms: ["overlap", "layering", "shingling"],
+  },
+  incipient: {
+    word: "incipient",
+    ipa: "/ɪnˈsɪp.i.ənt/",
+    pos: "adjective",
+    definitions: [
+      "Beginning to happen or develop; in an early stage.",
+    ],
+    example: "Doctors caught the incipient infection early enough to treat it easily.",
+    etymology: [
+      { tag: "Latin", label: "incipere", detail: "From Latin incipere, 'to begin, to undertake,' built from in- ('into') and capere, 'to take, to seize.'" },
+      { tag: "1600s", label: "Enters English", detail: "Adopted directly for anything just beginning to take shape or come into being — a first, early stage rather than a full-blown state." },
+    ],
+    related: ["incipience", "inception"],
+    synonyms: ["beginning", "emerging", "nascent", "budding"],
+  },
+  inglenook: {
+    word: "inglenook",
+    ipa: "/ˈɪŋ.ɡəl.nʊk/",
+    pos: "noun",
+    definitions: [
+      "A cozy nook or recessed seating area beside a fireplace.",
+    ],
+    example: "They spent the snowy evening curled up in the inglenook with mugs of hot cider.",
+    etymology: [
+      { tag: "Scottish Gaelic", label: "aingeal", detail: "Traces to Scottish Gaelic aingeal, 'fire, light,' itself from Old Irish — though the exact path is debated by etymologists." },
+      { tag: "c. 1500", label: "Scots 'ingle'", detail: "Becomes 'ingle' in Scots, meaning a household fire or hearth." },
+      { tag: "1773", label: "'Inglenook' is born", detail: "Joined with 'nook' during a wave of English literary interest in Scottish poetry, naming the cozy corner built right beside the hearth." },
+    ],
+    related: ["ingle", "hearth"],
+    synonyms: ["fireside nook", "hearth corner"],
+  },
+  offing: {
+    word: "offing",
+    ipa: "/ˈɒf.ɪŋ/",
+    pos: "noun",
+    definitions: [
+      "Used in the phrase 'in the offing' to mean likely to happen soon.",
+      "(nautical) The part of the sea visible from shore, beyond the anchoring ground.",
+    ],
+    example: "With the merger in the offing, everyone in the office was on edge.",
+    etymology: [
+      { tag: "Nautical", label: "'Off' the shore", detail: "Built simply from 'off' plus '-ing,' originally naming the stretch of open sea visible from land but too far out to anchor in." },
+      { tag: "1600s", label: "A sailor's word", detail: "Sailors used 'the offing' for ships that could be seen approaching from a distance — visible, but not yet arrived." },
+      { tag: "1700s", label: "Meaning comes ashore", detail: "The phrase 'in the offing' drifts into general English for anything visible on the horizon of possibility — likely to happen before too long." },
+    ],
+    related: ["horizon"],
+    synonyms: ["horizon", "prospect", "vicinity"],
+  },
+  gossamer: {
+    word: "gossamer",
+    ipa: "/ˈɡɒs.ə.mər/",
+    pos: "noun",
+    definitions: [
+      "A fine, filmy substance of cobwebs, often seen floating in the air or caught on grass in calm weather.",
+      "(as an adjective) Extremely light, delicate, and insubstantial.",
+    ],
+    example: "A single strand of gossamer caught the morning light between two branches.",
+    etymology: [
+      { tag: "Middle English", label: "gos + somer", detail: "Built from 'gos' (goose) and 'somer' (summer) — literally 'goose summer.'" },
+      { tag: "Medieval calendar", label: "A mild autumn spell", detail: "Likely first named a mild, warm stretch of late autumn — a 'St. Martin's summer' — around the time geese were traditionally eaten, much like the German Gänsemonat, 'goose month,' for November." },
+      { tag: "1300s", label: "Transfers to cobwebs", detail: "Because fine cobwebs are especially noticeable drifting through the air during that same mild autumn spell, the name shifts from the season itself to the delicate webs seen during it." },
+    ],
+    related: ["cobweb", "filament"],
+    synonyms: ["cobweb", "gauze", "filament"],
+  },
 };
 
 const WORD_LIST = Object.keys(WORDS);
+
+// A larger rotation for "today's word" — mixes the curated words above
+// (which get the full etymology treatment) with everyday interesting words
+// whose data is pulled live from the dictionary API.
+const DAILY_POOL = [
+  ...WORD_LIST,
+  "luminous", "resilience", "tranquil", "whimsical", "solitude",
+  "wanderlust", "melancholy", "euphoria", "verdant", "effervescent",
+  "labyrinth", "ineffable",
+  "radiant", "serene", "wistful", "exuberant", "meticulous",
+  "enigma", "paradox", "vivid", "tenacious", "eloquent",
+  "candid", "lucid", "pristine", "sublime",
+  "harmony", "curiosity", "kindred",
+  "zeal", "fortitude", "grace", "clarity",
+];
 
 function wordOfDayKey() {
   const start = new Date(new Date().getFullYear(), 0, 0);
   const diff = new Date() - start;
   const dayOfYear = Math.floor(diff / 86400000);
-  return WORD_LIST[dayOfYear % WORD_LIST.length];
+  return DAILY_POOL[dayOfYear % DAILY_POOL.length];
 }
 
 function EtymologyTimeline({ stages }) {
@@ -190,6 +1251,43 @@ async function fetchRelatedWords(word) {
   }
 }
 
+async function fetchDictionaryData(word) {
+  const key = word.trim().toLowerCase();
+  const [res, related] = await Promise.all([
+    fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(key)}`),
+    fetchRelatedWords(key),
+  ]);
+  if (!res.ok) throw new Error("not found");
+  const data = await res.json();
+  const first = data[0];
+  const allMeanings = data.flatMap((d) => d.meanings || []);
+  const pos = allMeanings[0]?.partOfSpeech || "—";
+  const definitions = allMeanings
+    .flatMap((m) => m.definitions || [])
+    .map((d) => d.definition)
+    .filter(Boolean)
+    .slice(0, 4);
+  const exampleDef = allMeanings.flatMap((m) => m.definitions || []).find((d) => d.example);
+  const synonymsSet = new Set();
+  allMeanings.forEach((m) => {
+    (m.synonyms || []).forEach((s) => synonymsSet.add(s));
+    (m.definitions || []).forEach((d) => (d.synonyms || []).forEach((s) => synonymsSet.add(s)));
+  });
+  const phonetic = first.phonetic || (first.phonetics || []).find((p) => p.text)?.text || "";
+
+  return {
+    word: first.word || key,
+    ipa: phonetic || "—",
+    pos,
+    definitions: definitions.length ? definitions : ["No definition found for this word."],
+    example: exampleDef ? exampleDef.example : "No example sentence available for this word yet.",
+    etymology: [],
+    related: related.filter((w) => w.toLowerCase() !== key),
+    synonyms: Array.from(synonymsSet).slice(0, 6),
+    live: true,
+  };
+}
+
 async function fetchLiveEntry(word, setLiveEntry, setLoading, setFetchError) {
   const key = word.trim().toLowerCase();
   if (!key) return;
@@ -197,39 +1295,8 @@ async function fetchLiveEntry(word, setLiveEntry, setLoading, setFetchError) {
   setFetchError("");
   setLiveEntry(null);
   try {
-    const [res, related] = await Promise.all([
-      fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(key)}`),
-      fetchRelatedWords(key),
-    ]);
-    if (!res.ok) throw new Error("not found");
-    const data = await res.json();
-    const first = data[0];
-    const allMeanings = data.flatMap((d) => d.meanings || []);
-    const pos = allMeanings[0]?.partOfSpeech || "—";
-    const definitions = allMeanings
-      .flatMap((m) => m.definitions || [])
-      .map((d) => d.definition)
-      .filter(Boolean)
-      .slice(0, 4);
-    const exampleDef = allMeanings.flatMap((m) => m.definitions || []).find((d) => d.example);
-    const synonymsSet = new Set();
-    allMeanings.forEach((m) => {
-      (m.synonyms || []).forEach((s) => synonymsSet.add(s));
-      (m.definitions || []).forEach((d) => (d.synonyms || []).forEach((s) => synonymsSet.add(s)));
-    });
-    const phonetic = first.phonetic || (first.phonetics || []).find((p) => p.text)?.text || "";
-
-    setLiveEntry({
-      word: first.word || key,
-      ipa: phonetic || "—",
-      pos,
-      definitions: definitions.length ? definitions : ["No definition found for this word."],
-      example: exampleDef ? exampleDef.example : "No example sentence available for this word yet.",
-      etymology: [],
-      related: related.filter((w) => w.toLowerCase() !== key),
-      synonyms: Array.from(synonymsSet).slice(0, 6),
-      live: true,
-    });
+    const entryData = await fetchDictionaryData(key);
+    setLiveEntry(entryData);
   } catch (err) {
     setFetchError(key);
   } finally {
@@ -239,12 +1306,32 @@ async function fetchLiveEntry(word, setLiveEntry, setLoading, setFetchError) {
 
 export default function App() {
   const [query, setQuery] = useState("");
-  const [active, setActive] = useState(wordOfDayKey());
+  const [active, setActive] = useState(WORD_LIST[0]);
   const [showSuggest, setShowSuggest] = useState(false);
   const [liveEntry, setLiveEntry] = useState(null);
   const [loading, setLoading] = useState(false);
   const [fetchError, setFetchError] = useState("");
+  const [dailyPreview, setDailyPreview] = useState(null);
   const inputRef = useRef(null);
+
+  React.useEffect(() => {
+    const dayKey = wordOfDayKey();
+    if (WORD_LIST.includes(dayKey)) {
+      setDailyPreview({ word: dayKey, def: WORDS[dayKey].definitions[0] });
+      setActive(dayKey);
+    } else {
+      setDailyPreview({ word: dayKey, def: "Loading today's word…" });
+      fetchDictionaryData(dayKey)
+        .then((data) => {
+          setDailyPreview({ word: dayKey, def: data.definitions[0] });
+          setLiveEntry(data);
+        })
+        .catch(() => {
+          setDailyPreview({ word: dayKey, def: "See today's word on Etymonline instead." });
+        });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const suggestions = useMemo(() => {
     if (!query.trim()) return [];
@@ -253,7 +1340,6 @@ export default function App() {
 
   const entry = liveEntry || WORDS[active];
   const notFound = Boolean(fetchError) && !loading;
-  const dayKey = wordOfDayKey();
 
   function go(w) {
     setLiveEntry(null);
@@ -261,6 +1347,15 @@ export default function App() {
     setActive(w);
     setQuery("");
     setShowSuggest(false);
+  }
+
+  function openDailyWord() {
+    if (!dailyPreview) return;
+    if (WORD_LIST.includes(dailyPreview.word)) {
+      go(dailyPreview.word);
+    } else {
+      fetchLiveEntry(dailyPreview.word, setLiveEntry, setLoading, setFetchError);
+    }
   }
 
   function onSubmit(e) {
@@ -303,9 +1398,11 @@ export default function App() {
 
       <div className="dayStrip">
         <span className="dayStripLabel">today's word</span>
-        <button className="dayStripWord" onClick={() => go(dayKey)}>{dayKey}</button>
+        <button className="dayStripWord" onClick={openDailyWord}>
+          {dailyPreview ? dailyPreview.word : "…"}
+        </button>
         <span className="dayStripDot">·</span>
-        <span className="dayStripDef">{WORDS[dayKey].definitions[0]}</span>
+        <span className="dayStripDef">{dailyPreview ? dailyPreview.def : "Loading…"}</span>
       </div>
 
       <div className="sectionDivider" />
