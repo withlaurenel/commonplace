@@ -493,7 +493,11 @@ export default function App() {
           max-width:720px; margin:36px auto 8px; display:flex; align-items:center;
           justify-content:space-between; gap:20px; flex-wrap:wrap;
         }
-        .brand{ font-family:'Madelinette', 'Petit Formal Script', cursive; font-size:44px; color:#6E7580; line-height:1; }
+        .brand{
+          font-family:'Madelinette', 'Petit Formal Script', cursive; font-size:44px; color:#6E7580;
+          line-height:1; display:inline-block; padding-left:14px;
+        }
+        @media (max-width: 380px){ .brand{ font-size:36px; } }
         .searchForm{ position:relative; }
         .searchForm input{
           font-family:'Inter', sans-serif; font-size:14px; padding:9px 4px;
