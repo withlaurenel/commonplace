@@ -457,6 +457,9 @@ export default function App() {
 
 
         *{ box-sizing:border-box; }
+        html, body{ margin:0; padding:0; }
+        body{ background:#F8F1E2; }
+        #root{ min-height:100vh; }
         .page{
           min-height:100vh; background:#F8F1E2; color:#2B2A28;
           font-family:'Inter', sans-serif; padding:0 24px 0;
